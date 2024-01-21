@@ -6,7 +6,7 @@ open Xunit
 module Chapter_01_06_Tests =
 
     [<Fact>]
-    let ``Should not throw an exception`` () =
+    let ``Should triple 10 to get 1000`` () =
         let x = 10
         let expectedResult = 1000
         let actualResult = validFunction x
