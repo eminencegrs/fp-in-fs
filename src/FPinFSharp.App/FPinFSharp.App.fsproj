@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Chapter_01.fs" />
+    <Content Include="Chapter_01\Description.md" />
+    <Compile Include="Chapter_01\Chapter_01_01.fs" />
+    <Compile Include="Chapter_01\Chapter_01_02.fs" />
+    <Compile Include="Chapter_01\Chapter_01_03.fs" />
+    <Compile Include="Chapter_01\Chapter_01_04.fs" />
   </ItemGroup>
 
 </Project>

@@ -9,4 +9,4 @@ Exercises to the book __Functional Programming Using F#__ written by __Michael R
 
 ## Structure
 
-- [Chapter 01: Exercises](./src/FPinFSharp.App/Chapter_01.fs)
+- [Chapter 01: Exercises](./src/FPinFSharp.App/Chapter_01)

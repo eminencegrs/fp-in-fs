@@ -8,8 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Chapter_01_TestFixture.fs" />
-    <Compile Include="Chapter_01_Tests.fs" />
+    <Compile Include="TestDataBase.fs" />
+    <Compile Include="Chapter_01\Chapter_01_01_Tests.fs" />
+    <Compile Include="Chapter_01\Chapter_01_02_Tests.fs" />
+    <Compile Include="Chapter_01\Chapter_01_03_Tests.fs" />
+    <Compile Include="Chapter_01\Chapter_01_04_Tests.fs" />
   </ItemGroup>
 
   <ItemGroup>
