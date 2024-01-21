@@ -9,4 +9,7 @@ Exercises to the book __Functional Programming Using F#__ written by __Michael R
 
 ## Structure
 
-- [Chapter 01: Exercises](./src/FPinFSharp.App/Chapter_01)
+- Chapter 01:
+  - [Description](./src/FPinFSharp.App/Chapter_01/Description.md)
+  - [Exercises](./src/FPinFSharp.App/Chapter_01)
+  - [Unit Tests](./tests/FPinFSharp.App.UnitTests/Chapter_01)
