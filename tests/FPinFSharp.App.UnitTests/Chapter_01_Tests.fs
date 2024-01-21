@@ -33,10 +33,9 @@ module Chapter_01_Tests =
         let actualResult = calculateCircleAreaV3 radius
         Assert.Equal(expectedResult, actualResult)
 
-    [<Fact>]
-    let ``Should get a number of days by a month number`` () =
-        let month = 1
-        let expectedResult = 31
+    [<Theory>]
+    [<ClassData(typeof<MonthsAndDaysTestData>)>]
+    let ``Should get a number of days by a month number`` (month: int, expectedResult: int) =
         let actualResult = daysNumberByMonth month
         Assert.Equal(expectedResult, actualResult)
 

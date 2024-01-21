@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Chapter_01_TestFixture.fs" />
     <Compile Include="Chapter_01_Tests.fs" />
   </ItemGroup>
 
