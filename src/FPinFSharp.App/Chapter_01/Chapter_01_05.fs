@@ -13,7 +13,7 @@ module Chapter_01_05 =
     // Using these concepts we represent x^n as a function power with a pair (x, n) as the argument.
     // The following declaration is based on the above recursion formula, using composite patterns (x, 0) and (x, n).
     // Please, note: the order of the clauses in the declaration of power is significant. 
-    let rec power (x, n) =
+    let rec power (x: float, n: uint) =
         match x, n with
-        | x, 0 -> 1.0
-        | x, n -> x * power(x, n - 1)   // for n > 0
+        | x, 0u -> 1.0
+        | x, n -> x * power(x, n - 1u)   // for n > 0
