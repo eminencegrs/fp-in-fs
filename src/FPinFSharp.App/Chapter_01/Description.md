@@ -1,4 +1,4 @@
-This chapter introduces some of the main concepts of functional programming languages:
+### Chapter 01 introduces some of the main concepts of functional programming languages:
 - value
 - expression
 - declaration
