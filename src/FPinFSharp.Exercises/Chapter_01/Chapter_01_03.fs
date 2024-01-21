@@ -1,4 +1,4 @@
-namespace FPinFSharp.App.Chapter_01
+namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.3 Anonymous functions. Function expressions.
 module Chapter_01_03 =

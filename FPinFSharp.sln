@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65D38C0C-ABFD-4864-840A-EBFCB0029E47}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FPinFSharp.App", "src\FPinFSharp.App\FPinFSharp.App.fsproj", "{FA1E119E-E88E-40C4-B48C-E98A86D3320D}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FPinFSharp.Exercises", "src\FPinFSharp.Exercises\FPinFSharp.Exercises.fsproj", "{FA1E119E-E88E-40C4-B48C-E98A86D3320D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{850A8FBE-A6C5-4DC3-B1A5-DF8B689765CA}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FPinFSharp.App.UnitTests", "tests\FPinFSharp.App.UnitTests\FPinFSharp.App.UnitTests.fsproj", "{2327BD8E-3252-4B01-930D-6A76E9F2F5FF}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FPinFSharp.Exercises.UnitTests", "tests\FPinFSharp.Exercises.UnitTests\FPinFSharp.Exercises.UnitTests.fsproj", "{2327BD8E-3252-4B01-930D-6A76E9F2F5FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

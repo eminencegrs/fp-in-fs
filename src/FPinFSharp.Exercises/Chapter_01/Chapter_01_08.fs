@@ -1,4 +1,4 @@
-namespace FPinFSharp.App.Chapter_01
+namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.8 Euclid’s algorithm (for computing the greatest common divisor of two natural numbers).
 module Chapter_01_08 =

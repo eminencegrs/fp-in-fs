@@ -1,6 +1,6 @@
-namespace FPinFSharp.App.UnitTests.Chapter_01
+namespace FPinFSharp.Exercises.UnitTests.Chapter_01
 
-open FPinFSharp.App.Chapter_01.Chapter_01_04
+open FPinFSharp.Exercises.Chapter_01.Chapter_01_04
 open Xunit
 
 module Chapter_01_04_Tests =

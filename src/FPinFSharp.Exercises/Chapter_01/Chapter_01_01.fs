@@ -1,4 +1,4 @@
-﻿namespace FPinFSharp.App.Chapter_01
+﻿namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.1 Values, types, identifiers and declarations.
 module Chapter_01_01 =

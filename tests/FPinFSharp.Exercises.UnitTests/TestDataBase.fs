@@ -1,4 +1,4 @@
-namespace FPinFSharp.App.UnitTests
+namespace FPinFSharp.Exercises.UnitTests
 
 type TestDataBase(generator : obj [] seq) = 
     interface seq<obj []> with

@@ -5,6 +5,7 @@
     <IsPackable>false</IsPackable>
     <GenerateProgramFile>false</GenerateProgramFile>
     <IsTestProject>true</IsTestProject>
+    <RootNamespace>FPinFSharp.App.UnitTests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -36,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\FPinFSharp.App\FPinFSharp.App.fsproj" />
+    <ProjectReference Include="..\..\src\FPinFSharp.Exercises\FPinFSharp.Exercises.fsproj" />
   </ItemGroup>
 
 </Project>

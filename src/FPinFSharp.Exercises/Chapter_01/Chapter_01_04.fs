@@ -1,4 +1,4 @@
-namespace FPinFSharp.App.Chapter_01
+namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.4 Recursion.
 module Chapter_01_04 =

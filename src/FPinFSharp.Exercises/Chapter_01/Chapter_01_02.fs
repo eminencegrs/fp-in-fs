@@ -1,6 +1,6 @@
-namespace FPinFSharp.App.Chapter_01
+namespace FPinFSharp.Exercises.Chapter_01
 
-open FPinFSharp.App.Chapter_01.Chapter_01_01
+open FPinFSharp.Exercises.Chapter_01.Chapter_01_01
 
 // 1.2 Simple function declarations.
 module Chapter_01_02 =

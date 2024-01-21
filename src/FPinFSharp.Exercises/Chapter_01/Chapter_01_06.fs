@@ -1,6 +1,6 @@
-namespace FPinFSharp.App.Chapter_01
+namespace FPinFSharp.Exercises.Chapter_01
 
-open FPinFSharp.App.Chapter_01.Chapter_01_01
+open FPinFSharp.Exercises.Chapter_01.Chapter_01_01
 
 // 1.6 Types and type checking.
 module Chapter_01_06 =

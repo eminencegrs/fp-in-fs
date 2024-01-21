@@ -1,4 +1,4 @@
-namespace FPinFSharp.App.Chapter_01
+namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.5 Pairs.
 module Chapter_01_05 =
