@@ -13,6 +13,13 @@ module Chapter_01_Tests =
         Assert.Equal(expectedResult, actualResult)
 
     [<Fact>]
+    let ``Should triple a number`` () =
+        let input = 3
+        let expectedResult = 27
+        let actualResult = triple input
+        Assert.Equal(expectedResult, actualResult)
+
+    [<Fact>]
     let ``Should calculate a circle area (v1)`` () =
         let radius = 10
         let expectedResult = 314.15926535897933
