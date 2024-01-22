@@ -16,6 +16,7 @@
     <Compile Include="Chapter_01\Chapter_01_06.fs" />
     <Content Include="Chapter_01\Chapter_01_07.md" />
     <Compile Include="Chapter_01\Chapter_01_08.fs" />
+    <Compile Include="Chapter_01\Exercises.fs" />
   </ItemGroup>
 
 </Project>
