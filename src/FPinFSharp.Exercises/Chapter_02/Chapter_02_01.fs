@@ -16,7 +16,7 @@ module Chapter_02_01 =
         | (true, result) -> Some result
         | _ -> None
 
-    // Operators.
+    // # Operators.
     // A monadic operator is an operator with one operand, while a dyadic operator has two operands.
     // Most monadic operators are used in prefix notation where the operator is written in front of the operand.
     // The symbol “-” (minus) is used for three purposes in F# as in mathematics:
@@ -44,9 +44,40 @@ module Chapter_02_01 =
     let subtractValues (x: int) (y: int) : int =
         x - y
 
-    // Truth values.
+    // # Truth values.
     let xorLongVersion a b =
         (a || b) && not (a && b)
 
     let xorShortVersion a b =
         a <> b
+
+    // # The unit type.
+    // This function is defined WITHOUT AN EXPLICIT type annotation. F# will infer the type to be unit -> unit.
+    // The type is inferred based on the fact that it's a function taking unit as a parameter and returning unit.
+    // PLEASE, NOTE:
+    // The function is defined to IMMEDIATELY execute its inner anonymous functions when called.
+    // When we call the outer function (performSideEffectV1()), it triggers the execution of the anonymous function inside.
+    let performSideEffectV1 =
+        fun () -> printfn "Performing side-effect (v1)"
+
+    // This function HAS AN EXPLICIT type annotation indicating that it takes unit as a parameter and returns unit.
+    // The type annotation is explicitly specified, providing clarity about the expected parameter and return types.
+    // PLEASE, NOTE:
+    // The function is defined to IMMEDIATELY execute its inner anonymous functions when called.
+    // When we call the outer function (performSideEffectV2()), it triggers the execution of the anonymous function inside.
+    let performSideEffectV2 : unit -> unit =
+        fun () -> printfn "Performing side-effect (v2)"
+
+    // This function explicitly specifies that it takes no parameters (unit) and returns unit.
+    let performSideEffectV3 () : unit =
+        printfn "Performing side-effect (v3)"
+
+    // This function is similar to performSideEffectV1 but without an explicit type annotation.
+    let performSideEffectV4 () =
+        printfn "Performing side-effect (v4)"
+
+    let getFunctionThatPerformsSideEffectV1 () : unit -> unit =
+        fun () -> printfn "Do something..."
+
+    let getFunctionThatPerformsSideEffectV2 () =
+        fun () -> printfn "Do something else..."

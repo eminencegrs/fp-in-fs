@@ -71,3 +71,33 @@ module Chapter_02_01_Tests =
     let ``Should apply xor (short version) for operands`` a b expectedResult =
         let actualResult = xorShortVersion a b
         Assert.Equal(expectedResult, actualResult)
+
+    [<Fact>]
+    let ``Should call the function to perform side-effect (v1)`` () =
+        let result = performSideEffectV1()
+        Assert.Equal((), result)
+
+    [<Fact>]
+    let ``Should call the function to perform side-effect (v2)`` () =
+        let result = performSideEffectV2()
+        Assert.Equal((), result)
+
+    [<Fact>]
+    let ``Should call the function to perform side-effect (v3)`` () =
+        let result = performSideEffectV3()
+        Assert.Equal((), result)
+
+    [<Fact>]
+    let ``Should call the function to perform side-effect (v4)`` () =
+        let result = performSideEffectV4()
+        Assert.Equal((), result)
+
+    [<Fact>]
+    let ``Should get a function that performs side-effect (v1)`` () =
+        let func = getFunctionThatPerformsSideEffectV1()
+        Assert.Equal((), func())
+
+    [<Fact>]
+    let ``Should get a function that performs side-effect (v2)`` () =
+        let func = getFunctionThatPerformsSideEffectV2()
+        Assert.Equal((), func())
