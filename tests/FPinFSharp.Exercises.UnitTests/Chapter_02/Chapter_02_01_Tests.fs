@@ -23,3 +23,33 @@ module Chapter_02_01_Tests =
         let actualResult = tryParseFloat value
         Assert.Equal(actualResult.IsNone, false)
         Assert.Equal(Math.Round(expectedResult, 3), Math.Round(actualResult.Value, 3))
+
+    [<Theory>]
+    [<InlineData(5, -5)>]
+    [<InlineData(-7, 7)>]
+    let ``Should negate a constant`` (x: int, expectedResult: int) =
+        let actualResult = negateConstant x
+        Assert.Equal(expectedResult, actualResult)
+
+    [<Theory>]
+    [<InlineData(5, -10)>]
+    [<InlineData(-10, 20)>]
+    let ``Should apply monadic minus operator to the result of the expression using lambda`` (x: int, expectedResult: int) =
+        let actualResult = applyMonadicMinusOperatorUsingExternalFunction (fun x -> - (x + x)) x
+        Assert.Equal(expectedResult, actualResult)
+
+    [<Theory>]
+    [<InlineData(5, -10)>]
+    [<InlineData(-10, 20)>]
+    let ``Should apply monadic minus operator to the result of the expression using the 'negateConstant' function``
+        (x: int, expectedResult: int) =
+        let actualResult = applyMonadicMinusOperatorUsingExternalFunction negateConstant (x + x)
+        Assert.Equal(expectedResult, actualResult)
+
+    [<Theory>]
+    [<InlineData(27, 20, 7)>]
+    [<InlineData(-10, 5, -15)>]
+    [<InlineData(-25, -25, 0)>]
+    let ``Should subtract values``(x: int, y: int, expectedResult: int) =
+        let actualResult =  subtractValues x y
+        Assert.Equal(expectedResult, actualResult)
