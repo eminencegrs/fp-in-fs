@@ -43,3 +43,10 @@ module Chapter_02_01 =
     // In this case, it represents the subtraction of 2 from 1, resulting in -1.
     let subtractValues (x: int) (y: int) : int =
         x - y
+
+    // Truth values.
+    let xorLongVersion a b =
+        (a || b) && not (a && b)
+
+    let xorShortVersion a b =
+        a <> b

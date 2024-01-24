@@ -53,3 +53,21 @@ module Chapter_02_01_Tests =
     let ``Should subtract values``(x: int, y: int, expectedResult: int) =
         let actualResult =  subtractValues x y
         Assert.Equal(expectedResult, actualResult)
+
+    [<Theory>]
+    [<InlineData(true, true, false)>]
+    [<InlineData(true, false, true)>]
+    [<InlineData(false, true, true)>]
+    [<InlineData(false, false, false)>]
+    let ``Should apply xor (long version) for operands`` a b expectedResult =
+        let actualResult = xorLongVersion a b
+        Assert.Equal(expectedResult, actualResult)
+
+    [<Theory>]
+    [<InlineData(true, true, false)>]
+    [<InlineData(true, false, true)>]
+    [<InlineData(false, true, true)>]
+    [<InlineData(false, false, false)>]
+    let ``Should apply xor (short version) for operands`` a b expectedResult =
+        let actualResult = xorShortVersion a b
+        Assert.Equal(expectedResult, actualResult)
