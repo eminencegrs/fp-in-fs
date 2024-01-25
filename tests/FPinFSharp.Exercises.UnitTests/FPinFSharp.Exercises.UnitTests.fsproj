@@ -20,6 +20,7 @@
     <Compile Include="Chapter_01\Exercises_Tests.fs" />
     <Compile Include="Chapter_02\Chapter_02_01_Tests.fs" />
     <Compile Include="Chapter_02\Chapter_02_02_Tests.fs" />
+    <Compile Include="Chapter_02\Chapter_02_03_Tests.fs" />
   </ItemGroup>
 
   <ItemGroup>
