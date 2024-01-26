@@ -1,9 +1,9 @@
 namespace FPinFSharp.Exercises.UnitTests.Chapter_01
 
-open FPinFSharp.Exercises.Chapter_01.Chapter_01_05
+open FPinFSharp.Exercises.Chapter_01.Section_01_05
 open Xunit
 
-module Chapter_01_05_Tests =
+module Section_01_05_Tests =
 
     [<Fact>]
     let ``Should get a pair of coordinates from a point`` () =

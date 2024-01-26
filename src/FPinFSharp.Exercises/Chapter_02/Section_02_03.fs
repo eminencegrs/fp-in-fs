@@ -3,7 +3,7 @@ namespace FPinFSharp.Exercises.Chapter_02
 open System
 
 // 2.3 Characters and strings
-module Chapter_02_03 =
+module Section_02_03 =
 
     // A string is a sequence of characters. Strings are values of the type string.
     // A string is written inside enclosing quotes that are not part of the string.

@@ -1,7 +1,7 @@
 namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.5 Pairs.
-module Chapter_01_05 =
+module Section_01_05 =
 
     // Let's define a custom complex type that represent a point.
     type Point = { X: int; Y: int }

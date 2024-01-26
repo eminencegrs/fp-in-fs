@@ -1,7 +1,7 @@
 namespace FPinFSharp.Exercises.Chapter_02
 
 // 2.5 Overloaded functions and operators
-module Chapter_02_05 =
+module Section_02_05 =
 
     // A name or symbol for a function or operator is overloaded if it has different meanings
     // when applied to arguments or operands of different types.

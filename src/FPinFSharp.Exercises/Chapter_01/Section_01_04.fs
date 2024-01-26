@@ -1,7 +1,7 @@
 namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.4 Recursion.
-module Chapter_01_04 =
+module Section_01_04 =
     let rec factorial x =
         match x with
         | 0 -> 1

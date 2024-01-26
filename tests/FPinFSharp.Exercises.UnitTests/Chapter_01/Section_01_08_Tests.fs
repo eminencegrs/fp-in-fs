@@ -1,9 +1,9 @@
 namespace FPinFSharp.Exercises.UnitTests.Chapter_01
 
-open FPinFSharp.Exercises.Chapter_01.Chapter_01_08
+open FPinFSharp.Exercises.Chapter_01.Section_01_08
 open Xunit
 
-module Chapter_01_08_Tests =
+module Section_01_08_Tests =
 
     [<Theory>]
     [<InlineData(6, 8, 2)>]

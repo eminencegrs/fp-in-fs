@@ -1,7 +1,7 @@
 namespace FPinFSharp.Exercises.Chapter_02
 
 // 2.2 Operator precedence and association
-module Chapter_02_02 =
+module Section_02_02 =
 
     let add a b =
         a + b

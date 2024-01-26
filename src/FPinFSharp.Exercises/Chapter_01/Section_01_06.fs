@@ -1,9 +1,9 @@
 namespace FPinFSharp.Exercises.Chapter_01
 
-open FPinFSharp.Exercises.Chapter_01.Chapter_01_01
+open FPinFSharp.Exercises.Chapter_01.Section_01_01
 
 // 1.6 Types and type checking.
-module Chapter_01_06 =
+module Section_01_06 =
 
     // F# will try to infer a type for each value, expression and declaration entered.
     // If the system can infer a type for the input, then the input is accepted by the system.

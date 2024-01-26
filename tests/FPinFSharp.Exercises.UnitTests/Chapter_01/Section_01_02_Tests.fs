@@ -1,9 +1,9 @@
 namespace FPinFSharp.Exercises.UnitTests.Chapter_01
 
-open FPinFSharp.Exercises.Chapter_01.Chapter_01_02
+open FPinFSharp.Exercises.Chapter_01.Section_01_02
 open Xunit
 
-module Chapter_01_02_Tests =
+module Section_01_02_Tests =
 
     [<Fact>]
     let ``Should calculate a circle area`` () =

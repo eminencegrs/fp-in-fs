@@ -1,11 +1,11 @@
 namespace FPinFSharp.Exercises.UnitTests.Chapter_02
 
 open FPinFSharp.Exercises.UnitTests.Extensions
-open FPinFSharp.Exercises.Chapter_02.Chapter_02_03
+open FPinFSharp.Exercises.Chapter_02.Section_02_03
 open Shouldly
 open Xunit
 
-module Chapter_02_03_Tests =
+module Section_02_03_Tests =
 
     [<Fact>]
     let ``Should get a random letter`` () =

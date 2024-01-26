@@ -1,9 +1,9 @@
 namespace FPinFSharp.Exercises.UnitTests.Chapter_01
 
-open FPinFSharp.Exercises.Chapter_01.Chapter_01_01
+open FPinFSharp.Exercises.Chapter_01.Section_01_01
 open Xunit
 
-module Chapter_01_01_Tests =
+module Section_01_01_Tests =
 
     [<Fact>]
     let ``Should double a number`` () =

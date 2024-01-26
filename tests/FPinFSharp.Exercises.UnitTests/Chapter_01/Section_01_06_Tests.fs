@@ -1,9 +1,9 @@
 namespace FPinFSharp.Exercises.UnitTests.Chapter_01
 
-open FPinFSharp.Exercises.Chapter_01.Chapter_01_06
+open FPinFSharp.Exercises.Chapter_01.Section_01_06
 open Xunit
 
-module Chapter_01_06_Tests =
+module Section_01_06_Tests =
 
     [<Fact>]
     let ``Should triple 10 to get 1000`` () =

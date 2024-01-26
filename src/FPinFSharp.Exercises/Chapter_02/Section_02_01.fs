@@ -4,7 +4,7 @@ open System
 open System.Globalization
 
 // 2.1 Numbers. Truth values. The unit type
-module Chapter_02_01 =
+module Section_02_01 =
 
     let tryParseInt (value: string) =
         match Int32.TryParse(value) with

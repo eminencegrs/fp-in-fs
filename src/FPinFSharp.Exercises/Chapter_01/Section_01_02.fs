@@ -1,9 +1,9 @@
 namespace FPinFSharp.Exercises.Chapter_01
 
-open FPinFSharp.Exercises.Chapter_01.Chapter_01_01
+open FPinFSharp.Exercises.Chapter_01.Section_01_01
 
 // 1.2 Simple function declarations.
-module Chapter_01_02 =
+module Section_01_02 =
     let calculateCircleArea (radius: int) =
         System.Math.PI * float (radius * radius)
 

@@ -1,7 +1,7 @@
 ﻿namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.1 Values, types, identifiers and declarations.
-module Chapter_01_01 =
+module Section_01_01 =
 
     // The function name is `double`, the argument is `x`, which has type `int`, and the return value is of type `int`.
     let double x =

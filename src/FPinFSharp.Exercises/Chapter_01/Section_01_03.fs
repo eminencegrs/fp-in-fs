@@ -1,7 +1,7 @@
 namespace FPinFSharp.Exercises.Chapter_01
 
 // 1.3 Anonymous functions. Function expressions.
-module Chapter_01_03 =
+module Section_01_03 =
     let calculateCircleAreaUsingAnonymousFunction (radius: int) =
         let anonymousFunction = fun r -> System.Math.PI * r * r
         anonymousFunction radius
