@@ -5,7 +5,7 @@
     <IsPackable>false</IsPackable>
     <GenerateProgramFile>false</GenerateProgramFile>
     <IsTestProject>true</IsTestProject>
-    <RootNamespace>FPinFSharp.App.UnitTests</RootNamespace>
+    <RootNamespace>FPinFSharp.Exercises.UnitTests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,7 @@
     <Compile Include="Chapter_02\Chapter_02_02_Tests.fs" />
     <Compile Include="Chapter_02\Chapter_02_03_Tests.fs" />
     <Compile Include="Chapter_02\Chapter_02_04_Tests.fs" />
+    <Compile Include="Chapter_02\Chapter_02_05_Tests.fs" />
   </ItemGroup>
 
   <ItemGroup>
