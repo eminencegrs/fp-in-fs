@@ -15,6 +15,11 @@ module Section_02_01_Tests =
         Assert.Equal(actualResult.IsNone, false)
         Assert.Equal(expectedResult, actualResult.Value)
 
+    [<Fact>]
+    let ``Should get none while parsing string into int`` () =
+        let actualResult = tryParseInt "123.456"
+        Assert.Equal(actualResult.IsNone, true)
+
     [<Theory>]
     [<InlineData("0.0", 0.0)>]
     [<InlineData("-7.235", -7.235)>]
@@ -23,6 +28,11 @@ module Section_02_01_Tests =
         let actualResult = tryParseFloat value
         Assert.Equal(actualResult.IsNone, false)
         Assert.Equal(Math.Round(expectedResult, 3), Math.Round(actualResult.Value, 3))
+
+    [<Fact>]
+    let ``Should get none while parsing string into float`` () =
+        let actualResult = tryParseFloat "this is not a float type"
+        Assert.Equal(actualResult.IsNone, true)
 
     [<Theory>]
     [<InlineData(5, -5)>]
