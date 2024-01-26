@@ -21,6 +21,7 @@
     <Compile Include="Chapter_02\Chapter_02_01.fs" />
     <Compile Include="Chapter_02\Chapter_02_02.fs" />
     <Compile Include="Chapter_02\Chapter_02_03.fs" />
+    <Compile Include="Chapter_02\Chapter_02_04.fs" />
   </ItemGroup>
 
   <ItemGroup>
