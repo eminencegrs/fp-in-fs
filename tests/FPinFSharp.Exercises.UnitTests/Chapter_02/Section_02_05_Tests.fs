@@ -27,7 +27,7 @@ module Section_02_05_Tests =
     [<InlineData(12, 144)>]
     [<InlineData(13, 169)>]
     let ``Should get a square of integer (v2)`` (x: int, expectedResult: int) =
-        let actualResult = Math_v1().square x
+        let actualResult = Math_v2().square x
         actualResult.ShouldBe(expectedResult)
 
     [<Theory>]
@@ -35,7 +35,7 @@ module Section_02_05_Tests =
     [<InlineData(1.5, 2.25)>]
     [<InlineData(10.0, 100.0)>]
     let ``Should get a square of float (v2)`` (x: float, expectedResult: float) =
-        let actualResult = Math_v1().square x
+        let actualResult = Math_v2().square x
         actualResult.ShouldBe(expectedResult)
 
     [<Theory>]
@@ -43,7 +43,7 @@ module Section_02_05_Tests =
     [<InlineData(12, 144)>]
     [<InlineData(13, 169)>]
     let ``Should get a square of integer (v3)`` (x: int, expectedResult: int) =
-        let actualResult = Math_v1().square x
+        let actualResult = Math_v3().square x
         actualResult.ShouldBe(expectedResult)
 
     [<Theory>]
@@ -51,5 +51,5 @@ module Section_02_05_Tests =
     [<InlineData(1.5, 2.25)>]
     [<InlineData(10.0, 100.0)>]
     let ``Should get a square of float (v3)`` (x: float, expectedResult: float) =
-        let actualResult = Math_v1().square x
+        let actualResult = Math_v3().square x
         actualResult.ShouldBe(expectedResult)
