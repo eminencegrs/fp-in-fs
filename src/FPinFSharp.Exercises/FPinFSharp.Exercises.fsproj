@@ -23,4 +23,8 @@
     <Compile Include="Chapter_02\Chapter_02_03.fs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Shouldly" Version="4.2.1" />
+  </ItemGroup>
+
 </Project>
