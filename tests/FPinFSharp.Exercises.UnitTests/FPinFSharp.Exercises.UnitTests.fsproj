@@ -27,6 +27,7 @@
     <Compile Include="Chapter_02\Section_02_06_Tests.fs" />
     <Compile Include="Chapter_02\Section_02_07_Tests.fs" />
     <Compile Include="Chapter_02\Section_02_08_Tests.fs" />
+    <Compile Include="Chapter_02\Section_02_09_Tests.fs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -8,6 +8,6 @@ module Section_02_08_Tests =
 
     [<Theory>]
     [<InlineData(5, 78.53981633974483)>]
-    let ``Should add two numbers`` (r, expectedResult) =
+    let ``Should get a circle area`` (r, expectedResult) =
         let actualResult = circleArea r
         actualResult.ShouldBe(expectedResult)

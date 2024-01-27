@@ -12,6 +12,6 @@ module Section_02_04_Tests =
     [<InlineData(36, 116, 4)>]
     [<InlineData(100, 20, 20)>]
     [<InlineData(20, 100, 20)>]
-    let ``Should get the greatest common divisor of two natural numbers`` (m, n, expectedResult) =
+    let ``Should get the greatest common divisor (gcd) of two natural numbers`` (m, n, expectedResult) =
         let actualResult = gcd(m, n)
         actualResult.ShouldBe(expectedResult)

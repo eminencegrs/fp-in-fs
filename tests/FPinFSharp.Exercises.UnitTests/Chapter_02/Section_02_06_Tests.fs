@@ -10,6 +10,6 @@ module Section_02_06_Tests =
     [<InlineData(0.3, 1, 0.3)>]
     [<InlineData(1.5, 2, 2.25)>]
     [<InlineData(10.0, 3, 1000.0)>]
-    let ``Should get a square of float (v3)`` (x: float, n: int, expectedResult: float) =
+    let ``Should raise the number 'x' to the power of 'n'`` (x: float, n: int, expectedResult: float) =
         let actualResult = power(x, n)
         actualResult.ShouldBe(expectedResult)
