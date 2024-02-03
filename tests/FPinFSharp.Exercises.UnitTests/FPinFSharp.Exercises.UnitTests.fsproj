@@ -29,10 +29,12 @@
     <Compile Include="Chapter_02\Section_02_08_Tests.fs" />
     <Compile Include="Chapter_02\Section_02_09_Tests.fs" />
     <Compile Include="Chapter_02\Section_02_10_Tests.fs" />
+    <Compile Include="Chapter_02\Section_02_11_Tests.fs" />
     <Folder Include="Chapter_03\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
     <PackageReference Include="Shouldly" Version="4.2.1" />
     <PackageReference Include="xunit" Version="2.4.2" />
