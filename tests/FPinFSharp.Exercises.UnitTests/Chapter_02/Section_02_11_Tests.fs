@@ -8,21 +8,21 @@ open Xunit
 module Section_02_11_Tests =
 
     [<Fact>]
-    let ``Given true when call raiseExceptionIfTrue then InvalidOperationException is thrown`` () =
+    let ``GIVEN true WHEN raiseExceptionIfTrue THEN InvalidOperationException is thrown`` () =
         let action = fun () -> raiseExceptionIfTrue true
         action |> ShouldThrowExtensions.ShouldThrow<InvalidOperationException>
 
     [<Fact>]
-    let ``Given false when call raiseExceptionIfTrue then no exception is thrown`` () =
+    let ``GIVEN false WHEN raiseExceptionIfTrue THEN no exception is thrown`` () =
         let action = fun () -> raiseExceptionIfTrue false
         action |> ShouldThrowExtensions.ShouldNotThrow
 
     [<Fact>]
-    let ``Given false when call raiseExceptionIfFalse then InvalidOperationException is thrown`` () =
+    let ``GIVEN false WHEN raiseExceptionIfFalse THEN InvalidOperationException is thrown`` () =
         let action = fun () -> raiseExceptionIfFalse false
         action |> ShouldThrowExtensions.ShouldThrow<InvalidOperationException>
 
     [<Fact>]
-    let ``Given true when call raiseExceptionIfFalse then no exception is thrown`` () =
+    let ``GIVEN true WHEN raiseExceptionIfFalse THEN no exception is thrown`` () =
         let action = fun () -> raiseExceptionIfFalse true
         action |> ShouldThrowExtensions.ShouldNotThrow
