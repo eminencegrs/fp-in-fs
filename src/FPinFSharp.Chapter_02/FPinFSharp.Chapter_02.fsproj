@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <RootNamespace>FPinFSharp.Chapter_02</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Description.md" />
+      <Compile Include="Section_01.fs" />
+      <Compile Include="Section_02.fs" />
+      <Compile Include="Section_03.fs" />
+      <Compile Include="Section_04.fs" />
+      <Compile Include="Section_05.fs" />
+      <Compile Include="Section_06.fs" />
+      <Compile Include="Section_07.fs" />
+      <Compile Include="Section_08.fs" />
+      <Compile Include="Section_09.fs" />
+      <Compile Include="Section_10.fs" />
+      <Compile Include="Section_11.fs" />
+      <Compile Include="Section_12.fs" />
+      <Compile Include="Exercises.fs" />
+    </ItemGroup>
+
+</Project>

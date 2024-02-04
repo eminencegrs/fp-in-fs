@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <IsPackable>false</IsPackable>
+        <GenerateProgramFile>false</GenerateProgramFile>
+        <IsTestProject>true</IsTestProject>
+        <RootNamespace>FPinFSharp.Chapter_01.UnitTests</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="6.12.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+        <PackageReference Include="Shouldly" Version="4.2.1" />
+        <PackageReference Include="xunit" Version="2.4.2" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="coverlet.collector" Version="6.0.0">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="coverlet.msbuild" Version="6.0.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\FPinFSharp.Chapter_01\FPinFSharp.Chapter_01.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="TestDataBase.fs" />
+      <Compile Include="Section_01_Tests.fs" />
+      <Compile Include="Section_02_Tests.fs" />
+      <Compile Include="Section_03_Tests.fs" />
+      <Compile Include="Section_04_Tests.fs" />
+      <Compile Include="Section_05_Tests.fs" />
+      <Compile Include="Section_06_Tests.fs" />
+      <Compile Include="Section_08_Tests.fs" />
+      <Compile Include="Exercises_Tests.fs" />
+    </ItemGroup>
+
+</Project>
