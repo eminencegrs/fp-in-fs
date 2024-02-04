@@ -9,15 +9,10 @@ Exercises to the book __Functional Programming Using F#__ written by __Michael R
 
 ## Structure
 
-- [Chapter 01](./src/FPinFSharp.Exercises/Chapter_01):
-  - [Description](./src/FPinFSharp.Exercises/Chapter_01/Description.md)
-  - [Exercises](./src/FPinFSharp.Exercises/Chapter_01/Exercises.fs)
-  - [Unit Tests](./tests/FPinFSharp.Exercises.UnitTests/Chapter_01)
-- [Chapter 02](./src/FPinFSharp.Exercises/Chapter_02):
-  - [Description](./src/FPinFSharp.Exercises/Chapter_02/Description.md)
-  - [Exercises](./src/FPinFSharp.Exercises/Chapter_02/Exercises.fs)
-  - [Unit Tests](./tests/FPinFSharp.Exercises.UnitTests/Chapter_02)
-- [Chapter 03](./src/FPinFSharp.Exercises/Chapter_03):
-  - [Description](./src/FPinFSharp.Exercises/Chapter_03/Description.md)
-  - [Exercises](./src/FPinFSharp.Exercises/Chapter_03/Exercises.fs)
-  - [Unit Tests](./src/FPinFSharp.Exercises.UnitTests/Chapter_03)
+## Structure
+
+| Chapter                                      | 📚 Description                                               | 💪 Exercises                                             | 🧪 Unit Tests                                            |
+|----------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
+| [➡️ Chapter 01](./src/FPinFSharp.Chapter_01) | [📝 Description](./src/FPinFSharp.Chapter_01/Description.md) | [💡 Exercises](./src/FPinFSharp.Chapter_01/Exercises.fs) | [✔️ Unit Tests](./tests/FPinFSharp.Chapter_01.UnitTests) |
+| [➡️ Chapter 02](./src/FPinFSharp.Chapter_02) | [📝 Description](./src/FPinFSharp.Chapter_02/Description.md) | [💡 Exercises](./src/FPinFSharp.Chapter_02/Exercises.fs) | [✔️ Unit Tests](./tests/FPinFSharp.Chapter_02.UnitTests) |
+| [➡️ Chapter 03](./src/FPinFSharp.Chapter_03) | [📝 Description](./src/FPinFSharp.Chapter_03/Description.md) | [💡 Exercises](./src/FPinFSharp.Chapter_03/Exercises.fs) | [✔️ Unit Tests](./src/FPinFSharp.Chapter_03.UnitTests)   |
