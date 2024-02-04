@@ -30,6 +30,7 @@
     <Compile Include="Chapter_02\Section_02_10.fs" />
     <Compile Include="Chapter_02\Section_02_11.fs" />
     <Compile Include="Chapter_02\Section_02_12.fs" />
+    <Compile Include="Chapter_02\Exercises.fs" />
     <Content Include="Chapter_03\Description.md" />
   </ItemGroup>
 

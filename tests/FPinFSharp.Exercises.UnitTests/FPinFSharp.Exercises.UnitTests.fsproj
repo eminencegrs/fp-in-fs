@@ -31,6 +31,7 @@
     <Compile Include="Chapter_02\Section_02_10_Tests.fs" />
     <Compile Include="Chapter_02\Section_02_11_Tests.fs" />
     <Compile Include="Chapter_02\Section_02_12_Tests.fs" />
+    <Compile Include="Chapter_02\Exercises_Tests.fs" />
     <Folder Include="Chapter_03\" />
   </ItemGroup>
 
